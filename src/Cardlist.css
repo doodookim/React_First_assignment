@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+* {
+  font-family: 'Dongle', sans-serif
+}
+
+.fullLayOut {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(32, 141, 195);
+  background: rgb(127, 230, 210);
+  border: 3px solid rgb(238, 238, 28);
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.leftTxt {
+  font-size: 50px;
+}
+
+.rightText {
+  flex: 1;
+  text-align: right;
+}
+
+.submitForm {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(48, 161, 184);
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 10px
+}
+
+.title,
+.content {
+  flex: 1;
+}
+
+.title input,
+.content input {
+  width: 300px; 
+  font-size: 20px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px;
+}
+
+.admitButton {
+  display: flex;
+  justify-content: end;
+}
+
+.addButton {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(31, 111, 84);
+  border-radius: 6px;
+  color: white;
+  font-size: 25px;
+  align-self: flex-end;
+ 
+  background-color: rgb(31, 111, 84);
+  border-radius: 6px;
+  color: white;
+  font-size: 25px;
+}
+.List {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.todoForm{
+  flex: 1;
+  flex: 0 0 calc(25% - 20px);
+  margin-top: 20px;
+  border: 3px solid rgb(71, 149, 139);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.onGoing, .Done{
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.deleteButton{
+  margin-right: 30px;
+  
+}
+
+.doneButton, .deleteButton {
+  width: 100px;
+  border: 2px solid rgb(139, 212, 189);
+  font-size: 20px;
+  border-radius: 8px;
+  margin-bottom: 0px;
+}
+.List{
+  font-size: 15px;
+}
+
+.title, .content {
+  font-size: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-height: 2em;
+  line-height: 1em;
+}
+
+p{
+  margin: 0px auto;
+}
